@@ -13,8 +13,7 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "types": [
-      "node",
-      "naive-ui/volar"
+      "node"
     ],
     "baseUrl": "..",
     "paths": {
