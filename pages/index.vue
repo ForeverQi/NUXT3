@@ -13,6 +13,7 @@ const params = {
   raceId: '1000006100'
 };
 let counter = useCounter();
+
 onMounted(() => {
   const response = $fetch(api.eventItemDetailApiName, {
     query: {
@@ -20,4 +21,6 @@ onMounted(() => {
     }
   });
 });
+let foo = null;
+foo.abc
 </script>
